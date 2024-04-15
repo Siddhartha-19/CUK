@@ -12,14 +12,7 @@ import 'package:code_u_knight/Services/authservice.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-      options: FirebaseOptions(
-          apiKey: "AIzaSyBYA1GgINp_z2vW-7LFQDYz41lZ1WpJTB0",
-          authDomain: "codeuknight.firebaseapp.com",
-          projectId: "codeuknight",
-          storageBucket: "codeuknight.appspot.com",
-          messagingSenderId: "132710743681",
-          appId: "1:132710743681:web:ccd47fa464a7fad88b1780"));
+
   runApp(const MyApp());
 }
 
